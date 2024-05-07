@@ -1,0 +1,73 @@
+abstract class BankAccount{
+
+
+	private String accountNumber;
+	private double balance;
+
+	public BankAccount(String accountNumber, double balance){
+
+		this.accountNumber = accountNumber;
+		this.balance = balance;
+	}
+
+	public void getAccountNumber(){
+		
+		System.out.print("The account number is " + accountNumber);
+	
+	}
+
+
+	public void getBalance(){
+		
+		System.out.print("The account balance is " + balance);
+	
+	}
+
+
+	public void setBalance(double balance){
+		
+		this.balance = balance;
+	
+	}
+
+
+
+
+	public abstract deposit(double amount);
+	public abstract withdraw(double amount);
+
+}
+
+class SavingsAccount extends BankAccount{
+
+	public SavingsAccount(String accountNumber, double balance){
+		
+		super(accountNumber, balance);
+	}
+
+	public void deposit(double amount){
+	
+		setBalance(getBalance() + amount);
+		System.out.println("Deposit of $" + amount + " successful.Current Balance: $" + getBalance());
+
+	}
+
+	public void withdraw(double amount) {
+
+		if(getBalance() >= amount) {
+
+			setBalance(getBalance() - amount );
+			System.out.println("Withdrawl of $" + amount +".successful.Current balance: $" +getBalance());
+		}
+		else{
+		
+			System.out.println("Insufficient funds. Withdrawl failed.");
+	}
+}
+		
+
+
+	
+
+
+	 

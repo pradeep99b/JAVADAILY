@@ -1,0 +1,32 @@
+class java EvenOdd extends Thread{
+
+	private static final int MAX_NUMBER = 20;
+	private static Object lock = new Object();
+
+	private static Boolean isEvenTurn = true;
+
+
+
+	public void run(){
+
+		System.out.println("Enter a number");
+		Scanner sc = new Scanner(System.in);
+		int n = sc.nextInt();
+		
+		
+
+		
+	
+	
+	}
+
+	public static void main(String[] args){
+
+
+		EvenOdd eo = new EvenOdd();
+		en.start();
+	}
+}
+	
+
+	 
