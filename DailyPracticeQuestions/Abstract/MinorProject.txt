@@ -1,0 +1,21 @@
+Main login page ==> user + admin login 
+Admin login on the basis of object from DB which has a particular field value set to true or false 
+Admin —> list of users(maid + people who want a maid)
+Admin—> maid details + user details 
+Admin—> user validation if he is a valid user via email opt
+Admin —> consent from user and maid 
+
+consent where user and maid digitally sign a doc and upload it 
+the doc contains agreement and  terms
+User —> login name date email 
+Email validation otp + phone number 
+User ui (if maid ) —> will see the list people who agree to hire her on the price demanded
+If they both agree then contact details will be shared
+User UI(if owner)—> will see a list of maids their details as per his locality and price
+
+
+max - 4/5 page
+admin - 2 page
+
+header and footer- same
+

@@ -1,0 +1,9 @@
+mongo
+
+use myDB  - will find the database if not found will create a database 
+
+show dbs --> displays all the databases similar to show databases;
+
+
+db ->(pre-defined object) it will point to currently opened database;
+

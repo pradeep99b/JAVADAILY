@@ -1,0 +1,34 @@
+import java.util.*;
+
+public class Demo{
+
+
+	public static void main(String[] args){
+
+
+		PriorityQueue pq = new PriorityQueue();
+
+		//System.out.println(pq.element());
+		//System.out.println(pq.remove());
+			
+
+		pq.offer("A");
+		pq.offer("B");
+		pq.offer("C");
+		pq.offer("D");
+		
+
+		System.out.println(pq.peek());
+
+		System.out.println(pq.poll());
+		System.out.println(pq.remove());
+		System.out.println(pq.element());
+
+		System.out.println(pq);
+		
+
+
+
+	}
+
+}

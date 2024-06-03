@@ -1,0 +1,12 @@
+create a baackend folder
+cd backend
+
+npm init -y
+
+package json
+
+
+npm i cors- cross orgin we can access node api in aur react app
+nodemon to automatically refresh our server when changes are made
+
+create a file server.js in backend folder

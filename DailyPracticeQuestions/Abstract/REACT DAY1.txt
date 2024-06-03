@@ -1,0 +1,19 @@
+CODE REUSABILITY
+WEBSITE WILL RELOAD EVERYTIME WE CLICK ON A HYPERINK
+MAINTAINANCE OF THE CODE IS COSTLY
+Building single page application is difficult in from the scratch approach
+
+in spa: single page application is only going to have single html file
+
+in spa based on routing/url we should load/display the ne content on that single .html file
+
+React Js will provide built in module built in functions class interfaces , architecture, folder/file structure 
+
+Facebook developed React JS
+
+with the new version we are having a new concept that for using a cli tool its installition is no longer needed. That is possible with the help of npx.
+
+npx nodemon index.js
+
+npx create-react-app myapp
+
