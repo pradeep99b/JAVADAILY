@@ -1,0 +1,42 @@
+import java.util.List;
+public class FirstOccurence{
+
+
+	public static <T> int Search( List<T> l, <T> target){
+
+
+		int t = target.intValue();
+		int count = 0;	
+		int n = 0;
+
+		for(T num: l)
+		{
+			n = num.intValue();
+			if(n == t)
+				return count;
+			count++;
+		}
+
+	
+
+		return -1;
+
+
+
+	}
+
+	public static void main(String[] args){
+
+
+		List<Integer> l = List.of(1,2,3,4,5,6,7,8,9);
+		Integer target = 9;
+
+
+		System.out.println(Search(l,target));
+
+		
+
+
+	}
+
+}
